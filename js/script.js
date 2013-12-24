@@ -3,4 +3,9 @@ $(document).ready(function(){
 		pager: false,
 		adaptiveHeight: true
 	});
+
+	$('#snowden-nav').on('click',function(){
+		$('.bxslider').goToSlide(1);
+	});
+
 });
