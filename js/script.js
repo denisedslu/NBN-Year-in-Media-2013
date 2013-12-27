@@ -111,5 +111,4 @@ $(document).ready(function(){
 	$('#glass-nav').on('click',function(){
 		slider.goToSlide(25);
 	});
-
 });
