@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	
+
 	$('#nav-menu').hide();
 
-	$('#nav-button').click(function(){
+	$('#hamburger').click(function(){
 		$('#nav-menu').slideToggle(300);
 		return false;
 	});
